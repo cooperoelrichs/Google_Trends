@@ -1,0 +1,25 @@
+
+Project Plan
+------------
+
+Need to develop a plan and a schedule to follow for working on this project.
+1. NEED to check the Matrix/Array and plotted values against the original files to ensure that no
+	miss-matching (eg. date or values get shifted, such that they don't match!) or data changing 
+	is occuring in the scripts.
+2. What is the ultimate goal?
+3. What steps are required to achieve this?
+4. What testing needs to be done?
+5. How long should each step (and the whole project) take?
+
+Current Goals
+Done: 1. Read, process, and plot the ASX200 history from Yahoo
+2. Compare the GTrend with the ASX200 trend
+3. Begin mathematical analysis of the two trends (as per the Research Paper)
+  ie. R value (see Paper or its appendix for formula or at least process?)
+      - is it the formula in the comments accompanying the plots?
+4. Check matrix/array and plot values against files (as per Goal 1)
+
+Current Work
+- Test new data_trend_analyzer
+- change plotter to use data from data_trend_analyzer
+	
